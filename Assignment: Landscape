@@ -35,6 +35,7 @@ sun_y = 230
 
 car_x = 130
 car_y = 355
+car_radius = 150
 
 # ---------------------------
 
@@ -76,8 +77,12 @@ while running:
         sun_y = 240
 
     car_x += 5
-    if car_x > WIDTH:
-        car_x = 0
+    if car_x - car_radius > WIDTH:
+        car_x = - car_radius
+
+    # car_x += 5
+    # if car_x > WIDTH:
+    #     car_x = 0
 
     # All game math and comparisons happen here
 
