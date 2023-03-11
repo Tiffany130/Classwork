@@ -108,7 +108,33 @@ while running:
     
     pygame.draw.rect(screen, (65, 65, 65), [0, 350, 800, 200])
 
-    pygame.draw.rect(screen, (51, 51, 51), [0, 350, 800, 8])
+    pygame.draw.rect(screen, (36, 37, 38), [0, 350, 800, 8])
+
+#fence
+
+    pygame.draw.rect(screen, (51, 51, 51), [0, 330, 800, 8])
+    
+    pygame.draw.rect(screen, (51, 51, 51), [0, 310, 8, 40])
+
+    pygame.draw.rect(screen, (51, 51, 51), [50, 310, 8, 40])
+
+    pygame.draw.rect(screen, (51, 51, 51), [100, 310, 8, 40])
+
+    pygame.draw.rect(screen, (51, 51, 51), [150, 310, 8, 40])
+
+    pygame.draw.rect(screen, (51, 51, 51), [200, 310, 8, 40])
+
+    pygame.draw.rect(screen, (51, 51, 51), [382, 310, 8, 40])
+    
+    pygame.draw.rect(screen, (51, 51, 51), [432, 310, 8, 40])
+    
+    pygame.draw.rect(screen, (51, 51, 51), [482, 310, 8, 40])
+    
+    pygame.draw.rect(screen, (51, 51, 51), [532, 310, 8, 40])
+    
+    pygame.draw.rect(screen, (51, 51, 51), [582, 310, 8, 40])
+    
+    pygame.draw.rect(screen, (51, 51, 51), [632, 310, 8, 40])
     
     #house
     pygame.draw.rect(screen, (139, 79, 57), [240, 200, 150, 150])
@@ -170,7 +196,6 @@ while running:
     pygame.draw.circle(screen, "black", [car_x + 30, car_y + 45], 15)
     pygame.draw.rect(screen, "gray", [car_x + 70, car_y + 10, 15, 15])
     pygame.draw.rect(screen, "black", [car_x + 70, car_y + 10, 15, 15], 2)
-
 
     pygame.display.flip()
     clock.tick(30)
